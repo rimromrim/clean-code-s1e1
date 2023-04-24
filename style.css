@@ -74,8 +74,7 @@
 }
 
 /* Heading */
-.app-section-names,
-.app-task-label {
+.app-section-names {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -83,6 +82,11 @@
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+}
+
+.app-section-names:nth-last-of-type(1) {
+  display: block;
+  margin-bottom: 0px;
 }
 
 .app-task-input {
@@ -105,7 +109,6 @@
 /* New Task */
 .app-task-label {
   display: block;
-  margin: 0 0 20px;
 }
 
 .app-task-input#new-task {
