@@ -86,7 +86,7 @@
 
 .app-section-names:nth-last-of-type(1) {
   display: block;
-  margin-bottom: 0px;
+  margin-bottom: 13px;
 }
 
 .app-task-input {
